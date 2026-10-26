@@ -1,19 +1,13 @@
-
-import { useState} from "react";
+import Todolist from './Todolist'
 
 
 
 function App() { 
-    const  [name, setName] = useState("")
 
-const handleChange =(event)=>{
-  setName(event.target.value);
-}
     
     return <>  
-    <input type="text" onChange = {handleChange} />
+  < Todolist/>
     
-<h1>hello {name}</h1>
 
    
         </>
