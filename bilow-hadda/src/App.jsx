@@ -1,12 +1,11 @@
-import Todolist from './Todolist'
-
+import ShoppingChat from './ShoppingChat';
 
 
 function App() { 
 
     
     return <>  
-  < Todolist/>
+  < ShoppingChat/>
     
 
    
